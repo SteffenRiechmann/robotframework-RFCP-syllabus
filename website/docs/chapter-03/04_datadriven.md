@@ -78,7 +78,7 @@ Single tests|tasks can be filtered and re-executed or tagged.
 It is possible to add header names to the data columns in the line of `*** Test Cases ***` or `*** Tasks ***` to describe the data columns to improve readability.
 
 
-### 3.4.1.2 Named Test|Task With Multiple Data Rows:
+### 3.4.1.2 Named Test|Task With Multiple Data Rows
 
 ::::lo[Learning Objectives]
 
