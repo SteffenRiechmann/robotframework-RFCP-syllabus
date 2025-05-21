@@ -29,7 +29,7 @@ Example:
 ```robotframework
 *** Test Cases ***
 Mandatory Positional Arguments
-    [Documentation]    Only mandatory arguments are use positional
+    [Documentation]    Only mandatory arguments are used positional.
     Should Be Equal    1    1
 
 Mixed Positional Arguments
