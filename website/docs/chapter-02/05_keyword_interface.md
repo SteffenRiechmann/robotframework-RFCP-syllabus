@@ -389,7 +389,7 @@ In the first call the keyword will be called with the integer values `10` and `2
 The second keyword call will fail, because the second argument is not a number and cannot be converted to an integer.
 The error message would be: `ValueError: Argument 'y' got value 'Not_A_Number' that cannot be converted to integer.`
 
-The advantage of using type hints is that the user get more information about what kind of values are expected and the keyword implementation can be simpler, because it can rely on the arguments being of the expected type.
+The advantage of using type hints is that the user gets more information about what kind of values are expected and the keyword implementation can be simpler, because it can rely on the arguments being of the expected type.
 
 <!-- Just to understand that they are there and that they may document how values are handled or which are allowed. -->
 
