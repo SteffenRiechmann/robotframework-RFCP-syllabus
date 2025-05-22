@@ -174,7 +174,7 @@ Exceptions are Teardowns explained in chapter [4 Advanced Structuring and Execut
 **Composite elements** are `FAIL` if at least one of their executed direct body elements are `FAIL`.
 Therefore a failure typically distributes upwards through the hierarchy of elements until it reaches the root suite.
 
-A User Keywords is `FAIL` if one of its called Library Keywords is `FAIL`.
+A User Keyword is `FAIL` if one of its called Library Keywords is `FAIL`.
 A test|task is `FAIL` if one of its directly called Keywords is `FAIL`.
 A suite (file) is `FAIL` if one of its test|task is `FAIL` and
 a suite (directory) is `FAIL` if one of its suites (file) is `FAIL`.
