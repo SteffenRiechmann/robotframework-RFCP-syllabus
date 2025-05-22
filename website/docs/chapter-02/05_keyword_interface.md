@@ -284,7 +284,7 @@ Depending on the command to be executed different amount of arguments are needed
 
 This variable argument is marked with a single asterisk `*` before the argument name in the keyword documentation.
 
-When calling this keyword, the first positional argument is assigned to `command`, while all subsequent positional arguments are collected into the `arguments`. Because of this behavior, no additional positional arguments can be used after these "Variable Number of Positional Arguments". As a result, any arguments following these "Variable Number of Positional Arguments" must be named arguments, regardless of whether they are mandatory or optional with default.
+When calling this keyword, the first positional argument is assigned to `command`, while all subsequent positional arguments are collected into the `arguments`. Because of this behavior, no additional positional arguments can be used after these "Variable Number of Positional Arguments". As a result, any arguments following these "Variable Number of Positional Arguments" must be named arguments, regardless of whether they are mandatory or optional with a default value.
 
 Also see [2.5.1.3 Example Keyword `Get Regexp Matches`](chapter-02/05_keyword_interface.md#2513-example-keyword-get-regexp-matches).
 
