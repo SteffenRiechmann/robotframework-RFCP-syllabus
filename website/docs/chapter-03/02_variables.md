@@ -418,7 +418,7 @@ Test with VAR
     ...    content=${file}
     ...    time=${time}
     ...    length=${length}
-    IF    $login == "matti"
+    IF    "${login}" == "matti"
         VAR    &{USER}    name=Matti    address=xxx    phone=123
     ELSE
         VAR    &{USER}    name=Teppo    address=yyy    phone=456
